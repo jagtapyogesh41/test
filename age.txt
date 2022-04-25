@@ -1,0 +1,19 @@
+var name=["Rice", "Dal", "Salt"];
+var quantity=[2, 3, 1];
+var price=[60, 50, 20];
+
+function get()
+ {
+   var data =[];
+  for (var i=0;i<name.length;i++)
+    {
+      var product={};
+        product.name=name[i],
+        product.quantity=quantity[i],
+        product.price=price[i]
+      
+      data.push(product);
+    }
+  console.log(data);
+
+ }
